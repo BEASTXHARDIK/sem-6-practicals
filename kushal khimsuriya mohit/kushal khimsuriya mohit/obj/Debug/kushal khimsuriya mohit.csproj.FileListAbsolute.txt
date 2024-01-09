@@ -1,0 +1,8 @@
+C:\Users\student\Desktop\kushal khimsuriya mohit\kushal khimsuriya mohit\bin\Debug\kushal khimsuriya mohit.exe.config
+C:\Users\student\Desktop\kushal khimsuriya mohit\kushal khimsuriya mohit\bin\Debug\kushal khimsuriya mohit.exe
+C:\Users\student\Desktop\kushal khimsuriya mohit\kushal khimsuriya mohit\bin\Debug\kushal khimsuriya mohit.pdb
+C:\Users\student\Desktop\kushal khimsuriya mohit\kushal khimsuriya mohit\obj\Debug\kushal khimsuriya mohit.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\kushal khimsuriya mohit\kushal khimsuriya mohit\obj\Debug\kushal khimsuriya mohit.csproj.SuggestedBindingRedirects.cache
+C:\Users\student\Desktop\kushal khimsuriya mohit\kushal khimsuriya mohit\obj\Debug\kushal khimsuriya mohit.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\kushal khimsuriya mohit\kushal khimsuriya mohit\obj\Debug\kushal khimsuriya mohit.exe
+C:\Users\student\Desktop\kushal khimsuriya mohit\kushal khimsuriya mohit\obj\Debug\kushal khimsuriya mohit.pdb
