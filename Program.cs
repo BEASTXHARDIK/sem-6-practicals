@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,21 +45,9 @@ namespace MYHMKPROJECT
                 Console.WriteLine();
             }
             Console.WriteLine();
-            for (k = 1; k < 5; k++)
-            {
 
-                for (i = 1; i <= countabc; i++)
-                    Console.Write(" ");
-                countabc--;
 
-                for (i = 1; i <= k; i++)
-                    Console.Write((Convert.ToChar(i + 64)) + " ");
-                    
-                Console.WriteLine();
-            }
-
-            Console.WriteLine();
-            for (k = 1; k < 5; k++)
+            for (k = 1; k <= 5; k++)
             {
 
                 for (i = 1; i <=counthybrid; i++)
