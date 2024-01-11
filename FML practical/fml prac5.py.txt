@@ -1,0 +1,25 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+X = np.array([1,2,3,4,5])
+Y =  np.array([2,4,5,4,5])
+
+theta0=0.5
+theta1=0.9
+
+
+predictions = theta0 + theta1 * X
+def calculate_cost (predictions , actual_values):
+    m=len(Y)
+    mse = np.sum((predictions  - actual_values) ** 2 ) / (2 * m)
+    return mse
+    
+cost=calculate_cost(predictions,Y)
+
+plt.scatter(X,Y,color='blue',label='Data points')
+plt.plot(X,predictions,color="red", label=f'Linear Regressoion Line  \n Cost: {cost:.2f}' )
+plt.xlabel('X')
+plt.ylabel('Y')
+plt.legend()
+plt.title('Linear Regresssion with sample data')
+plt.show()
