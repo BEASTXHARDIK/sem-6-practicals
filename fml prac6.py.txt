@@ -1,0 +1,29 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+np.random.seed(42)
+X=2* np.random.rand(100,1)
+Y=4+3*X + np.random.randn(100,1)
+
+X_b = np.c_[np.ones((100,1)),X]
+learning_rate=0.01
+n_iterations=1000
+
+theta =np.random.randn(2,1)
+
+for itreation in range(n_iterations):
+    greadients=2/100 * X_b.T.dot(X_b.dot(theta)-Y)
+    theta=theta -learning_rate * greadients
+print("Final Weights",theta)
+
+X_new=np.array([[0],[2]])
+X_new_b=np.c_[np.ones((2,1)),X_new]
+Y_predict=X_new_b.dot(theta)
+
+
+plt.scatter(X,Y)
+plt.plot(X_new,Y_predict,"r-",label="Predictions")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.legend()
+plt.show()
